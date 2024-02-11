@@ -52,6 +52,7 @@ public class MainClass {
 		}
 		
 		//close resource
+		resultSet.close();
 		statement.close();
 		connection.close(); 	
 		System.out.println("okk");
